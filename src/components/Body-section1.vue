@@ -1,10 +1,8 @@
 <template>
 <div class="bg-[#F5F4F4]">
 <div class="container mx-auto mobile-only:hidden pt-[14px] pb-[8px]">
-  <!-- <button @click="count++">
-    Count is: {{ count }}
-  </button> -->
 <Ul class="flex justify-between">
+  <router-link to="freedelivery">
     <li >
         <a href="" class="flex justify-between">
             <img class="h-[24px]" src="../assets/truck.png" alt="">
@@ -13,6 +11,8 @@ Free Delievery
             </p>
         </a>
     </li>
+    </router-link>
+    <router-link to="freecut-sample">
      <li>
         <a href="" class="flex justify-between">
             <img class="h-[24px]" src="../assets/sample.png" alt="">
@@ -21,6 +21,7 @@ Free Delievery
             </p>
         </a>
      </li>
+     </router-link>
       <li>
          <a href="" class="flex justify-between">
             <img class="h-[24px]" src="../assets/star.png" alt="">

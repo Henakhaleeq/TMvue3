@@ -71,16 +71,16 @@
       >
        
         <div
-          class=" flex items-center  gap-[3rem] Tab-only:gap-[2rem] mobile-only:gap-[15px]
+          class="  items-end flex gap-[3rem] Tab-only:gap-[1rem] mobile-only:gap-[15px] mobile-only:items-end
           "
         >
-          <div class="Tab-only:flex flex  mobile-only:block">
-            <a href=""><img class="w-[27px] h-[23px]" src="../assets/phone.tilemountain.svg" alt="" /></a>
+          <div class="Tab-only:flex flex  mobile-only:block ">
+            <a href=""><img class="w-[27px] h-[23px] mobile-only:w-[20px] h-[20px]" src="../assets/phone.tilemountain.svg" alt="" /></a>
             <a
               class="
                 font-sans
                 mobile-only:hidden
-                Tab-only: text-[12px]
+                Tab-only:text-[12px]
                 text-[#29275b]
                 font-bold
                 text-[18px]
@@ -90,29 +90,34 @@
               >0151 548 1554</a
             >
           </div>
-          <div
+          <div class="block mobile-only:flex">
+   <div
             class="
+            items-end
               flex
               gap-14
               Tab-only:gap-[1.5rem]
-              mobile-only:gap-[0.9rem]
-              mt-[10px]
+              mobile-only:gap-[1.4rem]
+              mt-[10px] 
+              mobile-only:items-end
             "
           >
+           <router-link to="/showroom">
             <div class="">
               <img
-                class="w-[23px] h-[23px] mobile-only:inline-block ml-[9px] mobile-only:ml-[0px]"
+                class="w-[23px] h-[23px] mobile-only:inline-block ml-[9px] mobile-only:ml-[0px] mobile-only:w-[19px] h-[19px] "
                 src="../assets/location.tilemountain.svg"
                 alt=""
               />
-              <p class="Tab-only:text-[11px]">
+              <!-- <p class="Tab-only:text-[11px] mobile-only:hidden">
                  showroom
-              </p>
+              </p> -->
             </div>
+            </router-link>
             <router-link to="/loginpage">
             <div class="">
               <img
-                class="w-[23px] h-[23px] mobile-only:inline-block ml-[8px]  mobile-only:ml-[0px]"
+                class="w-[23px] h-[23px] mobile-only:inline-block ml-[8px]  mobile-only:ml-[0px] mobile-only: w-[19px] h-[19px]"
                 src="../assets/user.tilemountain.svg"
                 alt=""
               />
@@ -120,12 +125,19 @@
              </router-link>
             <div class="Tab-only:hidden">
               <img
-                class="w-[29px] h-[25px] mobile-only:inline-block "
+                class="w-[24px] h-[28px] mobile-only:inline-block "
                 src="../assets/basket.tm.svg"
                 alt=""
               />
             </div>
           </div>
+          <div class="flex justify-start mb-[-19px]">
+             <p class="Tab-only:text-[11px] mobile-only:hidden">
+                 showroom
+              </p>
+          </div>
+          </div>
+       
         </div>
       </div>
     </div>

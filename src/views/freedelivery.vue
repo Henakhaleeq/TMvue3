@@ -1,13 +1,11 @@
 <template>
-  <div class="home">
+  <div class="freedelivery">
     <HeaderDesktop />
     <navbar/>
     <Bodysection1 />
-      <desktopslider />
-      
-      <bodysection2/>
-      <bodysection3/>
-      <bodysection4/>
+    <deliveryinformation />
+    <freedeliverysection3 />
+    <bodysection4/>
       <Footer1/>
 
   </div>
@@ -15,24 +13,23 @@
 
 <script>
 import HeaderDesktop from '@/components/HeaderDesktop.vue';
-import desktopslider from '@/components/desktopslider.vue';
+import  navbar from '@/components/nav-bar.vue';
 import  Bodysection1 from '@/components/Body-section1.vue';
-import  bodysection2 from '@/components/body-section2.vue';
-import bodysection3 from '@/components/body-section3.vue';
+import  deliveryinformation from '@/components/deliveryinformation.vue';
+import  freedeliverysection3 from '@/components/freedeliverysection3.vue';
 import bodysection4 from '@/components/body-section4.vue';
 import Footer1 from '@/components/Footer1.vue';
-import  navbar from '@/components/nav-bar.vue';
+
 
 export default {
-  name: 'HomeView',
+  name: 'free-delivery',
   components: {
   HeaderDesktop,
-  desktopslider ,
   navbar,
   Bodysection1,
-  bodysection2,
- bodysection3,
- bodysection4,
+  deliveryinformation,
+  freedeliverysection3,
+  bodysection4,
  Footer1
 
   },

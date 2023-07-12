@@ -14,11 +14,13 @@
               <span> Customer info </span>
             </p>
             <ul class="list-none mt-[15px] mb-[16px] m-x-[0px] pl-[0rem]">
+              <router-link to="/clearance&offers">
               <li
                 class="text-white Tab-only:text-[13.0069px] Lap-only-[16px] font-[Arial] leading-7"
               >
                 Clearance & Offers
               </li>
+              </router-link>
               <li
                 class="text-white Tab-only:text-[13.0069px] Lap-only:text-[16px] font-[Arial] leading-7"
               ></li>

@@ -1,12 +1,9 @@
 <template>
-  <div class="home">
+  <div class="clearance&offers">
     <HeaderDesktop />
     <navbar/>
-    <Bodysection1 />
-      <desktopslider />
-      
-      <bodysection2/>
-      <bodysection3/>
+    <Bodysection1 />   
+      <clearanceofferssection2/>
       <bodysection4/>
       <Footer1/>
 
@@ -15,23 +12,19 @@
 
 <script>
 import HeaderDesktop from '@/components/HeaderDesktop.vue';
-import desktopslider from '@/components/desktopslider.vue';
 import  Bodysection1 from '@/components/Body-section1.vue';
-import  bodysection2 from '@/components/body-section2.vue';
-import bodysection3 from '@/components/body-section3.vue';
+import clearanceofferssection2 from '@/components/clearance&offers-section2.vue';
 import bodysection4 from '@/components/body-section4.vue';
 import Footer1 from '@/components/Footer1.vue';
 import  navbar from '@/components/nav-bar.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'clearance-offers',
   components: {
   HeaderDesktop,
-  desktopslider ,
   navbar,
   Bodysection1,
-  bodysection2,
- bodysection3,
+clearanceofferssection2,
  bodysection4,
  Footer1
 

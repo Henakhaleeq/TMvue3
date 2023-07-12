@@ -1,37 +1,36 @@
 <template>
-  <div class="home">
+  <div class="freecut-sample">
     <HeaderDesktop />
     <navbar/>
     <Bodysection1 />
-      <desktopslider />
-      
-      <bodysection2/>
-      <bodysection3/>
-      <bodysection4/>
-      <Footer1/>
+    <freecutsection2/>
+    <freecutsection3/>
+    <freecutsection4/>
+    <bodysection4/>
+    <Footer1/>
 
   </div>
 </template>
 
 <script>
 import HeaderDesktop from '@/components/HeaderDesktop.vue';
-import desktopslider from '@/components/desktopslider.vue';
 import  Bodysection1 from '@/components/Body-section1.vue';
-import  bodysection2 from '@/components/body-section2.vue';
-import bodysection3 from '@/components/body-section3.vue';
+import  freecutsection2 from '@/components/freecut-section2.vue';
+import  freecutsection3 from '@/components/freecut-section3.vue';
+import  freecutsection4 from '@/components/freecut-section4.vue';
 import bodysection4 from '@/components/body-section4.vue';
 import Footer1 from '@/components/Footer1.vue';
 import  navbar from '@/components/nav-bar.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'freecut-sample',
   components: {
   HeaderDesktop,
-  desktopslider ,
   navbar,
   Bodysection1,
-  bodysection2,
- bodysection3,
+   freecutsection2,
+  freecutsection3,
+  freecutsection4, 
  bodysection4,
  Footer1
 

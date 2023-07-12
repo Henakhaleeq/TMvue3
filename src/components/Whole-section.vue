@@ -704,6 +704,7 @@
           :key="index"
           class="Tab-only:pb-[20px] mobile-only:flex mobile-only:p-[9px] mobile-only:border-b border-gray-200 border-b-0.5"
         >
+         <div class="h-[280px] flex justify-center items-center">
           <img
             alt=""
             :src="product.image"
@@ -711,6 +712,7 @@
             lazy="loaded"
             style=""
           />
+         </div>
           <div class="mobile-only:pl-[23px]">
             <p
               class="text-[17px] w-[100%] text-left pb-[6px] mb-[4px] mt-[20px] text-[#434343] font-Arial font-thin leading-5 h-[46px] overflow-hidden Tab-only:text-[13px] mobile-only:text-[14.48px]"

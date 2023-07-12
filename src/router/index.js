@@ -30,6 +30,38 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "productpage" */ '../views/loginpage.vue')
+  },
+  {
+    path: '/showroom',
+    name: 'showroom',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "productpage" */ '../views/showroom.vue')
+  },
+  {
+    path: '/freedelivery',
+    name: 'freedelivery',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "productpage" */ '../views/freedelivery.vue')
+  },
+  {
+    path: '/freecut-sample',
+    name: 'freecut-sample',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "productpage" */ '../views/freecut-sample.vue')
+  },
+  {
+    path: '/clearance&offers',
+    name: 'clearance&offers',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "productpage" */ '../views/clearance&offers.vue')
   }
 ]
 
